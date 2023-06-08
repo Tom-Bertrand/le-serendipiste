@@ -4,7 +4,13 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 698px;
+  min-height: 576px;
+}
+
+@media (max-width: 1399px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 698px;
+  }
 }
 
 @media (max-width: 1199px) {
