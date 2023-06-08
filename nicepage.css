@@ -41538,11 +41538,25 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 991px) {
+  .u-header .u-sheet-1 {
+    min-height: 141px;
+  }
+
   .u-header .u-menu-1 {
-    margin-top: 1533px;
+    margin-top: 635px;
+    margin-right: 20px;
+  }
+
+  .u-header .u-image-3 {
+    margin-top: -69px;
+    margin-bottom: 20px;
   }
 }
-
+@media (max-width: 767px) {
+  .u-header .u-image-3 {
+    margin-top: -69px;
+  }
+}
 
  .u-footer {
   background-image: none;
